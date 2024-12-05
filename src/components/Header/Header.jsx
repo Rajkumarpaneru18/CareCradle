@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <header className="w-full flex justify-between items-center text-white my-10">
       {/* Logo Section */}
-      <div className="flex justify-center items-center text-2xl ">NewLife</div>
+      <div className="flex justify-center items-center text-2xl ">
+        CareCradle
+      </div>
 
       {/* Navigation section */}
       <ul className="flex justify-center items-center gap-20">
