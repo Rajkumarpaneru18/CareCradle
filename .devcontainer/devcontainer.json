@@ -1,0 +1,37 @@
+{
+  "name": "CareCradle Development Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "18"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "files.autoSave": "afterDelay"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install",
+  "ports": [
+    {
+      "port": 3000,
+      "label": "React Dev Server",
+      "onAutoForward": "notify"
+    }
+  ],
+  "env": {
+    "REACT_APP_OPENAI_KEY": "your-openai-api-key-here"
+  },
+  "mounts": [
+    "source=/home/node/.npm,target=/usr/local/share/.cache/yarn,type=volume"
+  ],
+  "remoteUser": "node"
+}
