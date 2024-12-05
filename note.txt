@@ -1,2 +1,0 @@
-loginctl enable-linger rajkumar --- use thsi to allow service of daytona to run after loging 
-out .
