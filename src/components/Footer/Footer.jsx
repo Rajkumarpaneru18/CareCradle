@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-gray-400 text-lg">
-        &#169; NewLife 2024. All rights reserved.
+        &#169; CareCradle 2024. All rights reserved.
       </div>
     </div>
   );
