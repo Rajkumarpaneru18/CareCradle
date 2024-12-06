@@ -11,7 +11,7 @@ export default defineConfig({
     "process.env": process.env,
   },
   server: {
-    port: 3000, // Updated to match the devcontainer.json port
+    port: 5173, // Updated to match the devcontainer.json port
     host: true, // Ensures the dev server binds to 0.0.0.0 for container accessibility
   },
 });
