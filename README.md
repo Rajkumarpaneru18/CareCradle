@@ -45,7 +45,7 @@ CareCradle is an open-source, generative AI-powered assistant designed to provid
 
 ## 🎥 Demo
 
-https://github.com/SusheelThapa/Quine-ZeroSpoil/assets/83917129/a0a1f16e-fb04-4430-bcdc-e72ab966c4b6
+https://github-production-user-asset-6210df.s3.amazonaws.com/82999440/393319110-39fb1778-7c7a-4f0a-984b-2cf1ed5a5c74.mp4
 
 ## 🚀 Getting Started
 
