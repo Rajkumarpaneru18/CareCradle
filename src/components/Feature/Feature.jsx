@@ -10,7 +10,7 @@ const Feature = () => {
       <div className="w-2/5  text-white flex flex-col gap-6">
         <div className="text-4xl font-black flex flex-col justify-center items-start">
           <div>
-            NewLife
+            CareCradle
             <br />
             <span className=" text-center bg-gradient-to-r from-yellow-300 to-orange-400 text-transparent bg-clip-text">
               {" "}
