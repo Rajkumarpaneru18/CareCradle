@@ -27,11 +27,5 @@
       "onAutoForward": "notify"
     }
   ],
-  "env": {
-    "REACT_APP_OPENAI_KEY": "your-openai-api-key-here"
-  },
-  "mounts": [
-    "source=/home/node/.npm,target=/usr/local/share/.cache/yarn,type=volume"
-  ],
   "remoteUser": "node"
 }
