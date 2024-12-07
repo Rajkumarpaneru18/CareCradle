@@ -8,19 +8,16 @@
 </p>
 
 
+# Sample Javascript using React 
 ## Table of Contents
 
 - [Problem Statement](#problem_statement)
-- [Features](#features)
 - [Demo](#demo)
-- [Installation](#installation)
+- [Getting Started](#getting_started)
+- [Features](#features)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
 - [License](#license)
 
-# Sample <Javascript / React >
-
-# Sample Description 
 
 
 ## ❓ Problem Statement
@@ -38,7 +35,7 @@ These challenges result in tragic outcomes, particularly in marginalized communi
 </div>
 
 
-# 💡 Solution
+# 💡 Solution- CareCradle
 
 
 CareCradle is an open-source, generative AI-powered assistant designed to provide comprehensive information, advice, and support for expectant mothers during their pregnancy journey.
@@ -54,7 +51,12 @@ https://github-production-user-asset-6210df.s3.amazonaws.com/82999440/393319110-
 - **Create the Workspace**:  
   ```bash
   daytona create https://github.com/Rajkumarpaneru18/CareCradle
-- **Go to Frontend Folder** :
+
+- **Add your open api key by creating a .env file.**
+  ```bash
+  REACT_APP_OPENAI_KEY=
+- **Add port 5173 as the forward port.**
+- **Run the following command on your terminal** :
     ```bash
     npm run dev
 ## ✨ Features
